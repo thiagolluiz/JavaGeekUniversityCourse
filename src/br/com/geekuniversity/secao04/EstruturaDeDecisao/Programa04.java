@@ -1,0 +1,33 @@
+package br.com.geekuniversity.secao04.EstruturaDeDecisao;
+
+// if, else, else if
+public class Programa04 
+{
+	public static void main(String[] args)
+	{
+		// Declarando e inicializando a variável
+		int numero = 2;
+		
+		/* se (numero > 5) então {
+		 	escreva ("Sim, o número "+ numero +" é maior que 5");
+		 }senão se (numero == 5){
+		 	escreva ("O número "+ numero +" é igual a 5");
+		 }senão se (numero é par){
+		 	escreva ("O número "+ numero +" é igual a 5");
+		 }senão{
+		 	escreva ("Não, o número "+ numero +" não é maior que 5");
+		 }
+		 */
+		if (numero > 5) {
+			System.out.println("Sim, o número "+ numero +" é maior que 5");
+		}else if (numero == 5) {
+			System.out.println("O número "+ numero +" é igual a 5");
+			// Verificando se o número é par
+		}else if (numero % 2 == 0) {
+			System.out.println("O número "+ numero +" é par5");
+		}else {
+			System.out.println("Não, o número "+ numero +" não é maior que 5");		
+		}
+	}
+
+}
